@@ -191,12 +191,12 @@ class Wordle:
 
         print(f"\n{simulation_count} random {game_string}")
         print(
-            f"Win percentage: {'{:.2%}'.format(win_count / simulation_count)} ({win_count} {win_string} won)"
+            f"Win percentage: {'{:.4%}'.format(win_count / simulation_count)} ({win_count} {win_string} won)"
         )
 
         if win_count > 0:
             print(
-                f"Average round of won {win_string}: {'{:.2}'.format(round_total / win_count)}"
+                f"Average round of won {win_string}: {'{:.4}'.format(round_total / win_count)}"
             )
 
         print()
